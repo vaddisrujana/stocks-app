@@ -48,6 +48,9 @@
                             </div>
                             <p>Number of shares</p>
                             <input type="number" class="bg-transparent rounded w-full"/>
+                            <div>
+                                <p>Price per share</p>
+                            </div>
                         </div>
                     </div>
                 </div>
