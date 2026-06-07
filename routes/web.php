@@ -19,6 +19,10 @@ Route::get('/stock', function () {
     return view('stock');
 })->middleware(['auth', 'verified'])->name('stock');
 
+Route::get('/transactions', function () {
+    return view('transactions');
+})->middleware(['auth', 'verified'])->name('transactions');
+Route::get('/users', [UserController::class, 'index']);
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

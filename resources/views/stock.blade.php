@@ -12,7 +12,7 @@
                             </h1>
                             <h1 class="text-2xl font-semibold mt-4">$189.50</h1>
                             <p class="bg-[#EAF3DE] text-green-700 text-sm font-semibold rounded pl-2 w-[10rem]">+$2.30 <span>(+1.2%)</span> <span>today</span></p>
-                            <div class="flex justify-between p-2">
+                            <div class="flex justify-between pb-4">
                                 <div>
                                     <p>Open</p>
                                     <p>$187.20</p>
@@ -39,7 +39,7 @@
                                 <h1>Chart</h1>
                             </div>
                             <hr>
-                            <p class="text-sm p-2">You currently own <span>10</span> shares of <span>AAPL</span> — current value <span>$1,895</span></p>
+                            <p class="text-sm pt-4">You currently own <span>10</span> shares of <span>AAPL</span> — current value <span>$1,895</span></p>
                         </div> 
                         <div class="bg-white dark:bg-gray-800 mt-4 mr-2 flex-1 p-4 rounded">
                             <div class="flex">

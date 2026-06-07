@@ -17,11 +17,11 @@
                         <table class="w-full border-collapse">
                         <thead>
                             <tr class="border-b">
-                            <th class="p-3 text-left">Symbol</th>
-                            <th class="p-3 text-left">Company</th>
-                            <th class="p-3 text-left">Price</th>
-                            <th class="p-3 text-left">Change</th>
-                            <th class="p-3 text-left">Volume</th>
+                                <th class="p-3 text-left">Symbol</th>
+                                <th class="p-3 text-left">Company</th>
+                                <th class="p-3 text-left">Price</th>
+                                <th class="p-3 text-left">Change</th>
+                                <th class="p-3 text-left">Volume</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -31,7 +31,7 @@
                             <td class="p-3">$189.50</td>
                             <td class="p-3 text-green-600">+1.2%</td>
                             <td class="p-3">52.3M</td>
-                            <td><a  href="{{ url('/stock') }}" class="border border-white rounded px-4 py-2">Trade</a></td>
+                            <td><a  href="{{ route('stock') }}" class="border border-white rounded px-4 py-2">Trade</a></td>
                             </tr>
                             <tr class="border-b">
                             <td class="p-3 font-semibold">TSLA</td>
@@ -39,7 +39,7 @@
                             <td class="p-3">$242.10</td>
                             <td class="p-3 text-red-600">-0.8%</td>
                             <td class="p-3">31.1M</td>
-                            <td><a  href="{{ url('/stock') }}" class="border border-white rounded px-4 py-2">Trade</a></td>
+                            <td><a  href="{{ route('stock') }}" class="border border-white rounded px-4 py-2">Trade</a></td>
                             </tr>
                             <tr class="border-b">
                             <td class="p-3 font-semibold">GOOGL</td>
@@ -47,7 +47,7 @@
                             <td class="p-3">$174.30</td>
                             <td class="p-3 text-green-600">+1.2%</td>
                             <td class="p-3">18.7M</td>
-                            <td><a  href="{{ url('/stock') }}" class="border border-white rounded px-4 py-2">Trade</a></td>
+                            <td><a  href="{{ route('stock') }}" class="border border-white rounded px-4 py-2">Trade</a></td>
                             </tr>
                         </tbody>
                         </table>
